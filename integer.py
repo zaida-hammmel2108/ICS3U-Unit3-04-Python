@@ -4,14 +4,14 @@
 # Created on: Oct 2022
 # This program identifies your integer
 
+
 def main():
-    # This function checks if the number you chose matches the random number.
+    # This function determines if your integer is positive, negative or neither.
 
     # input
     user_number = int(input("Enter any integer: "))
 
     # process
-        # process
     if user_number < 0:
         # output
         print("{0} is a negative integer!".format(user_number))
